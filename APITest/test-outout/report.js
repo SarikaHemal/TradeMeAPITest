@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/sarik/eclipse-workspace/APITest/src/main/java/feature/APIFeature.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Users/sarik/eclipse-workspace/TradeMeAPITest/APITest/src/main/java/feature/APIFeature.feature");
 formatter.feature({
   "line": 1,
   "name": "Usedcar API Test Feature",
@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 580334400,
+  "duration": 888029100,
   "status": "passed"
 });
 formatter.scenario({
@@ -26,7 +26,7 @@ formatter.scenario({
 });
 formatter.step({
   "line": 5,
-  "name": "I perform get operation for json request \"v1/Categories/UsedCars\"",
+  "name": "I perform get operation for json request \"v1/Categories/UsedCars.json\"",
   "keyword": "Given "
 });
 formatter.step({
@@ -42,14 +42,14 @@ formatter.step({
 formatter.match({
   "arguments": [
     {
-      "val": "v1/Categories/UsedCars",
+      "val": "v1/Categories/UsedCars.json",
       "offset": 42
     }
   ],
   "location": "TrademeAPISteps.i_perform_get_operation_for_json_request(String)"
 });
 formatter.result({
-  "duration": 1505019400,
+  "duration": 2264974800,
   "status": "passed"
 });
 formatter.match({
@@ -62,18 +62,18 @@ formatter.match({
   "location": "TrademeAPISteps.i_can_get_satus_code(int)"
 });
 formatter.result({
-  "duration": 3390600,
-  "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c404\u003e\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\r\n\tat org.junit.Assert.assertEquals(Assert.java:647)\r\n\tat org.junit.Assert.assertEquals(Assert.java:633)\r\n\tat steps.TrademeAPISteps.i_can_get_satus_code(TrademeAPISteps.java:49)\r\n\tat ✽.And i can get satus code 200(C:/Users/sarik/eclipse-workspace/APITest/src/main/java/feature/APIFeature.feature:6)\r\n",
-  "status": "failed"
+  "duration": 3907700,
+  "status": "passed"
 });
 formatter.match({
   "location": "TrademeAPISteps.i_can_get_validate_response_body_with_at_least_one_listed_car()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 12677600,
+  "status": "passed"
 });
 formatter.before({
-  "duration": 3183300,
+  "duration": 3895000,
   "status": "passed"
 });
 formatter.scenario({
@@ -92,7 +92,7 @@ formatter.scenario({
 });
 formatter.step({
   "line": 12,
-  "name": "I perform get operation for json request \"v1/Categories/UsedCars\"",
+  "name": "I perform get operation for json request \"v1/Categories/UsedCars.json\"",
   "keyword": "Given "
 });
 formatter.step({
@@ -108,14 +108,14 @@ formatter.step({
 formatter.match({
   "arguments": [
     {
-      "val": "v1/Categories/UsedCars",
+      "val": "v1/Categories/UsedCars.json",
       "offset": 42
     }
   ],
   "location": "TrademeAPISteps.i_perform_get_operation_for_json_request(String)"
 });
 formatter.result({
-  "duration": 65305700,
+  "duration": 76407900,
   "status": "passed"
 });
 formatter.match({
@@ -128,9 +128,8 @@ formatter.match({
   "location": "TrademeAPISteps.i_can_get_satus_code(int)"
 });
 formatter.result({
-  "duration": 260800,
-  "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c404\u003e\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\r\n\tat org.junit.Assert.assertEquals(Assert.java:647)\r\n\tat org.junit.Assert.assertEquals(Assert.java:633)\r\n\tat steps.TrademeAPISteps.i_can_get_satus_code(TrademeAPISteps.java:49)\r\n\tat ✽.And i can get satus code 200(C:/Users/sarik/eclipse-workspace/APITest/src/main/java/feature/APIFeature.feature:13)\r\n",
-  "status": "failed"
+  "duration": 329000,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -142,10 +141,11 @@ formatter.match({
   "location": "TrademeAPISteps.i_can_get_validate_response_body_with(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 19931000,
+  "status": "passed"
 });
 formatter.before({
-  "duration": 1431900,
+  "duration": 2784300,
   "status": "passed"
 });
 formatter.scenario({
@@ -164,7 +164,7 @@ formatter.scenario({
 });
 formatter.step({
   "line": 18,
-  "name": "I perform GET operation with path parameter for car \"v1/Categories/UsedCars/1\"",
+  "name": "I perform GET operation with path parameter for car \"v1/Categories/UsedCars/Cars.json\"",
   "rows": [
     {
       "cells": [
@@ -192,20 +192,20 @@ formatter.step({
 });
 formatter.step({
   "line": 21,
-  "name": "I should validate get the response body",
+  "name": "I should get validate the response body with details",
   "keyword": "Then "
 });
 formatter.match({
   "arguments": [
     {
-      "val": "v1/Categories/UsedCars/1",
+      "val": "v1/Categories/UsedCars/Cars.json",
       "offset": 53
     }
   ],
   "location": "TrademeAPISteps.i_perform_GET_operation_with_path_parameter_for_car(String,DataTable)"
 });
 formatter.result({
-  "duration": 105825600,
+  "duration": 97914900,
   "status": "passed"
 });
 formatter.match({
@@ -218,12 +218,12 @@ formatter.match({
   "location": "TrademeAPISteps.i_can_get_satus_code(int)"
 });
 formatter.result({
-  "duration": 266400,
-  "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c404\u003e\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\r\n\tat org.junit.Assert.assertEquals(Assert.java:647)\r\n\tat org.junit.Assert.assertEquals(Assert.java:633)\r\n\tat steps.TrademeAPISteps.i_can_get_satus_code(TrademeAPISteps.java:49)\r\n\tat ✽.And i can get satus code 200(C:/Users/sarik/eclipse-workspace/APITest/src/main/java/feature/APIFeature.feature:20)\r\n",
+  "duration": 860400,
+  "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c404\u003e\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\r\n\tat org.junit.Assert.assertEquals(Assert.java:647)\r\n\tat org.junit.Assert.assertEquals(Assert.java:633)\r\n\tat steps.TrademeAPISteps.i_can_get_satus_code(TrademeAPISteps.java:51)\r\n\tat ✽.And i can get satus code 200(C:/Users/sarik/eclipse-workspace/TradeMeAPITest/APITest/src/main/java/feature/APIFeature.feature:20)\r\n",
   "status": "failed"
 });
 formatter.match({
-  "location": "TrademeAPISteps.i_should_see_the_response_body_with_following_data()"
+  "location": "TrademeAPISteps.i_should_get_validate_the_response_body_with_details()"
 });
 formatter.result({
   "status": "skipped"
