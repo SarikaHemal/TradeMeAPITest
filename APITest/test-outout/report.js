@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 888029100,
+  "duration": 944271100,
   "status": "passed"
 });
 formatter.scenario({
@@ -49,7 +49,7 @@ formatter.match({
   "location": "TrademeAPISteps.i_perform_get_operation_for_json_request(String)"
 });
 formatter.result({
-  "duration": 2264974800,
+  "duration": 2253308400,
   "status": "passed"
 });
 formatter.match({
@@ -62,18 +62,18 @@ formatter.match({
   "location": "TrademeAPISteps.i_can_get_satus_code(int)"
 });
 formatter.result({
-  "duration": 3907700,
+  "duration": 4222200,
   "status": "passed"
 });
 formatter.match({
   "location": "TrademeAPISteps.i_can_get_validate_response_body_with_at_least_one_listed_car()"
 });
 formatter.result({
-  "duration": 12677600,
+  "duration": 16903200,
   "status": "passed"
 });
 formatter.before({
-  "duration": 3895000,
+  "duration": 5322700,
   "status": "passed"
 });
 formatter.scenario({
@@ -115,7 +115,7 @@ formatter.match({
   "location": "TrademeAPISteps.i_perform_get_operation_for_json_request(String)"
 });
 formatter.result({
-  "duration": 76407900,
+  "duration": 77876000,
   "status": "passed"
 });
 formatter.match({
@@ -128,7 +128,7 @@ formatter.match({
   "location": "TrademeAPISteps.i_can_get_satus_code(int)"
 });
 formatter.result({
-  "duration": 329000,
+  "duration": 286500,
   "status": "passed"
 });
 formatter.match({
@@ -141,11 +141,11 @@ formatter.match({
   "location": "TrademeAPISteps.i_can_get_validate_response_body_with(String)"
 });
 formatter.result({
-  "duration": 19931000,
+  "duration": 14897700,
   "status": "passed"
 });
 formatter.before({
-  "duration": 2784300,
+  "duration": 3253600,
   "status": "passed"
 });
 formatter.scenario({
@@ -205,7 +205,7 @@ formatter.match({
   "location": "TrademeAPISteps.i_perform_GET_operation_with_path_parameter_for_car(String,DataTable)"
 });
 formatter.result({
-  "duration": 97914900,
+  "duration": 84625300,
   "status": "passed"
 });
 formatter.match({
@@ -218,8 +218,8 @@ formatter.match({
   "location": "TrademeAPISteps.i_can_get_satus_code(int)"
 });
 formatter.result({
-  "duration": 860400,
-  "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c404\u003e\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\r\n\tat org.junit.Assert.assertEquals(Assert.java:647)\r\n\tat org.junit.Assert.assertEquals(Assert.java:633)\r\n\tat steps.TrademeAPISteps.i_can_get_satus_code(TrademeAPISteps.java:51)\r\n\tat ✽.And i can get satus code 200(C:/Users/sarik/eclipse-workspace/TradeMeAPITest/APITest/src/main/java/feature/APIFeature.feature:20)\r\n",
+  "duration": 836800,
+  "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c404\u003e\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:835)\r\n\tat org.junit.Assert.assertEquals(Assert.java:647)\r\n\tat org.junit.Assert.assertEquals(Assert.java:633)\r\n\tat steps.TrademeAPISteps.i_can_get_satus_code(TrademeAPISteps.java:52)\r\n\tat ✽.And i can get satus code 200(C:/Users/sarik/eclipse-workspace/TradeMeAPITest/APITest/src/main/java/feature/APIFeature.feature:20)\r\n",
   "status": "failed"
 });
 formatter.match({

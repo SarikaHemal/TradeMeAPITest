@@ -58,7 +58,6 @@ public class TrademeAPISteps {
 	public void i_can_get_validate_response_body_with(String car) {
 		
 		System.out.println(response.body().asString().contains(car));
-		response.getBody().peek();
 		Assert.assertTrue(response.body().asString().contains(car));
 		
 		
