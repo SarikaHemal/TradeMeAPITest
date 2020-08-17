@@ -6,7 +6,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "C:\\Users\\sarik\\eclipse-workspace\\APITest\\src\\main\\java\\feature\\APIFeature.feature",
+@CucumberOptions(features = "C:\\Users\\sarik\\eclipse-workspace\\TradeMeAPITest\\APITest\\src\\main\\java\\feature\\APIFeature.feature",
 		glue = {"steps" }, 
 		format = { "pretty", "html:test-outout" }, 
 				dryRun = false,
