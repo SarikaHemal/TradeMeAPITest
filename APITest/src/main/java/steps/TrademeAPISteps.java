@@ -37,6 +37,7 @@ public class TrademeAPISteps {
 		
 		String a = response.getBody().asString();
 		System.out.println(a);
+		
         //assertThat(a, matchesJsonSchemaInClasspath("Usedcars.json"));
 	}
 	
@@ -59,14 +60,15 @@ public class TrademeAPISteps {
 		System.out.println(response.body().asString().contains(car));
 		response.getBody().peek();
 		Assert.assertTrue(response.body().asString().contains(car));
-		//assertThat(response.getBody().jsonPath().get("Name").toString().contains(car), equalTo("Kia"));
+		
 		
 	}
 	@Then("^I should get validate the response body with details$")
 	public void i_should_get_validate_the_response_body_with_details()  {
 
 		String a = response.getBody().asString();
-        //assertThat(a, matchesJsonSchemaInClasspath("Car.json"));
+		System.out.println(a);
+        //assertThat(a, matchesJsonSchemaInClasspath("Usedcars.json"));
 	}
 	
 	@Given("^I perform GET operation with path parameter for car \"([^\"]*)\"$")
